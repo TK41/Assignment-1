@@ -1,0 +1,237 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #FFD700; /* Pale Gold */
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #228B22; /* Forest Green */
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contact section styles */
+section#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Announcements section styles */
+section#announcements p {
+  font-style: italic;
+  color: #FF69B4; /* Hot Pink */
+}
+
+/* Links section styles */
+section#links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Customer Comments section styles */
+section#customer-comments blockquote {
+  margin: 20px 0;
+  padding-left: 40px;
+  border-left: 2px solid #228B22; /* Forest Green */
+}
+
+section#customer-comments cite {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Footer styles */
+footer {
+  background-color: #FFD700; /* Pale Gold */
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #FF69B4; /* Hot Pink */
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-info {
+  background-color: #F6F6F6;
+  padding: 20px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  color: #337AB7; /* A link color */
+}
+
+.contact-info ul li a:hover {
+  text-decoration: underline;
+}
+
+.trading-hours {
+  background-color: #F8E71C; /* Yellow background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+.trading-hours p {
+  margin: 10px 0;
+}
+
+.trading-hours h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#customer-comments.enticing-customer-comments {
+  background-color: #FFD700; /* Pale Gold background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+#customer-comments.enticing-customer-comments blockquote {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 5px solid #228B22; /* Forest Green */
+  background-color: #F8F8F8; /* Light Gray background */
+}
+
+#customer-comments.enticing-customer-comments blockquote p {
+  font-size: 24px;
+}
+
+#customer-comments.enticing-customer-comments cite {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#links.enticing-links {
+  background-color: #FFE4B5; /* Moccasin background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+#links.enticing-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#links.enticing-links ul li {
+  margin: 10px 0;
+}
+
+#links.enticing-links a {
+  text-decoration: none;
+  color: #4169E1; /* Royal Blue link color */
+}
+
+#links.enticing-links a:hover {
+  text-decoration: underline;
+}
+#announcements.enticing-announcements {
+  background-color: #F3C143; /* Gold background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+#announcements.enticing-announcements p {
+  margin: 10px 0;
+}
+
+#announcements.enticing-announcements p:first-child {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#announcements.enticing-announcements p:last-child {
+  color: #228B22; /* Forest Green for special offer */
+}
+
+#announcements.enticing-announcements h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
